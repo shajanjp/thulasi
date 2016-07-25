@@ -11,11 +11,72 @@ categories : trending
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat maiores libero dolorum sint eveniet, assumenda ducimus officiis omnis ipsam vel voluptates quis rerum praesentium alias id blanditiis, hic tempore delectus harum recusandae repellat! Neque aliquid, pariatur nulla quaerat a dicta, architecto, velit natus accusamus delectus perspiciatis? Repellendus tempora, nam quo dignissimos amet voluptates maxime temporibus sint nihil vel consectetur cumque consequatur culpa eligendi! Tempora debitis placeat delectus expedita, harum numquam eum velit consectetur nam reiciendis quas vitae asperiores at nesciunt, maxime maiores incidunt iste mollitia, repudiandae qui inventore quae, nulla deserunt aut? Quibusdam perferendis minus modi asperiores aliquam unde quidem eaque impedit nam eveniet quo ipsum facilis quaerat, debitis, dolores. Ab provident ipsam ipsum incidunt omnis. Excepturi assumenda accusamus ipsum cum incidunt inventore quae atque in quis suscipit mollitia ut eligendi nobis numquam illum, veniam aperiam officia esse, quo, a quidem. Ea omnis tenetur maiores error debitis numquam delectus eveniet quisquam repudiandae in vero aliquam est perferendis deserunt ab beatae atque doloremque optio autem, culpa iste quas rem quia sapiente. Aliquam, architecto quos animi asperiores beatae eligendi rem sit? Natus sint reiciendis eos, incidunt obcaecati expedita corrupti explicabo temporibus non inventore enim delectus. Delectus voluptas neque amet pariatur animi sed.
 ## Here comes my heading 2
 
-```
-var hello = "Shajan Jacob";
-```
+{% highlight javascript %}
+if (typeof jQuery === 'undefined') {
+  throw new Error('Bootstrap\'s JavaScript requires jQuery')
+}
+{% endhighlight %}
 
 ![Cover Image]({{ site.baseurl }}/posts/hello-jekyll-world/hello-world-cover.jpg)
-__ Will this work as a caption __
+
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
+Inline `code` has `back-ticks around` it.
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 
 Now, I really love writing markdown files.
