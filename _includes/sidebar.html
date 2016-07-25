@@ -1,0 +1,37 @@
+<div class="col-sm-3" id="sidebar">
+	<h2 class="heading">Categories</h2>
+	<nav id="categories">
+		<ul>
+			{% for category in site.data.info.categories %}
+			<li><a href="{{site.baseurl}}/category/{{ category }}">{{ category }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+
+	<h2 class="heading">Trending</h2>
+	<nav id="trending">
+		<ul>
+			{% for post in site.categories.trending %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+
+	<h2 class="heading">Authors</h2>
+	<nav id="authors">
+		<ul>
+			{% for post in site.categories.author %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+
+	<h2 class="heading">Recent Articles</h2>
+	<nav id="trending">
+		<ul>
+			{% for post in site.posts limit:10 %}
+			<li><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+</div>

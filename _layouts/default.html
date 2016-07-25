@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>GuysWhoCode</title>
+
+	<!-- SEO -->
+	<title>{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
+	<meta name="description" content="{% if page.title %}{{ page.content | strip_html | slice: 0, 150 }}{% elsif site.description %}{{ site.description }}{% endif %}">
+
+	<meta name="author" content="gwc" />
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/grid12.min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/octicons.css">
+</head>
+<body>
+	{{ content }}
+
+
+	<!-- Footer -->
+	{% include footer.html %}
+
+	<!-- Analytics -->
+	{% include analytics.html %}
+	
+	<script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+</html>
