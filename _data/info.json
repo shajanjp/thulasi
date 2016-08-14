@@ -6,5 +6,10 @@
       "development",
       "hack",
       "tool"
+   ],
+   "authors" :[
+   	{"name" : "Shajan Jacob", "url": "shajan-jacob"},
+   	{"name" : "Qubin Jose", "url": "qubin-jose"},
+   	{"name" : "Jay Shankar", "url": "jay-shankar"}
    ]
 }
