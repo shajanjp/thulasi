@@ -111,6 +111,28 @@ article.preview .read-more{
   margin: 0px;
 }
 
+/* Full article */
+article.full{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+article.full b{
+ font-weight: 500; 
+}
+article.full blockquote{
+  padding: 20px;
+  border: 4px solid #555;
+}
+article.full pre {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+
 /* Sidebar */
 #sidebar nav{
   background-color:#FFF;
