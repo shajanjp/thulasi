@@ -8,7 +8,7 @@ author : Shajan Jacob
 #lighter
 color-1 : ff0000
 #darker 
-color-2 : 888
+color-2 : 888888
 
 # Jekyll
 paginate: 10
@@ -23,7 +23,7 @@ highlighter: rouge
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  dribbble: guyswhocode
   email: guyswhocode@gmail.com
   facebook: guyswhocode
   flickr:
@@ -32,7 +32,7 @@ footer-links:
   linkedin: guyswhocode
   pinterest: guyswhocode
   rss: # just type anything here for a working RSS icon
-  twitter: shajanjacob
+  twitter: guyswhoc0de
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
