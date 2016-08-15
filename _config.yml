@@ -6,9 +6,9 @@ logo : https://raw.githubusercontent.com/guyswhocode/guyswhocode.github.io/maste
 author : Shajan Jacob
 
 #lighter
-color-1 : 888
+color-1 : ff0000
 #darker 
-color-2 : 4D4F53
+color-2 : 888
 
 # Jekyll
 paginate: 10

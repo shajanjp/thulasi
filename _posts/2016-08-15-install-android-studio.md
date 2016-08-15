@@ -1,10 +1,9 @@
 ---
 layout : post
 title : Install Android Studio on Ubuntu
-description : Beginners guide to installing Android studio on ubuntu. 
+description : Beginners guide to installing Android studio. 
 author : Shajan Jacob
 thumbnail : android-studio-logo.png
-cover : android-code.png
 background : 6f6f6f
 color : 84b74d
 categories : trending
@@ -23,12 +22,15 @@ Download JDK from [here](http://www.oracle.com/technetwork/java/javase/downloads
 > If you have a 64 bit OS, you have to download x64
 
 #### Check whether JDK is properly installed.
+
 ```
 javac -version
 ```
+
 #### Setting the JAVA_HOME path
 
 ## Ubuntu 14 or Later
+
 ### Download and install Android studio
 Download Android Studio from [here](https://developer.android.com/studio/index.html) and install.
 
