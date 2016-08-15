@@ -9,7 +9,12 @@ categories : trending
 ---
 
 
-# Test
+# Heading test 1
+## Heading test 2
+### Heading test 3
+#### Heading test 4
+##### Heading test 5
+###### Heading test 6
 
 - Hello
 - Huhu
@@ -31,6 +36,7 @@ But let's throw in a <b>tag</b>.
 
 Inline `code` has `back-ticks around` it.
 
+![GWC Logo](https://raw.githubusercontent.com/guyswhocode/guyswhocode.github.io/master/guyswhocode-logo.png)
 
 > This is a test quote
 
