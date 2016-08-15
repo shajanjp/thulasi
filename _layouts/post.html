@@ -4,8 +4,8 @@ layout: default
 
 <header style="background-color: #{{ page.background }}; background-image: url('{{ site.baseurl }}/posts{{ page.url }}/{{ page.cover }}');">
 	<div class="title">
-		{% if page.thumbnail %}<img src="{{ site.baseurl }}/posts{{ page.url }}/{{ page.thumbnail}}"> {% endif%}
-		<h1 style="color: #{{ page.color }};">{{ page.title }}</h1>
+		{% if page.thumbnail %}<img src="{{ site.baseurl }}/posts{{ page.url }}/{{ page.thumbnail}}"> {% endif %}
+		<h1{% if page.color %}style="color: #{{ page.color }};"{% endif %}>{{ page.title }}</h1>
 		<p class="subline">{{ page.description }}</p>
 		<p>by <strong>Shajan Jacob</strong> &#8212; Posted in <strong>Intro</strong> on <strong>May 21, 2014</strong></p>
 	</div>

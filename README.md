@@ -1,2 +1,2 @@
-# thulasi
-Jekyll Blog Template
+# Thulasi
+Minimal Jekyll Blog Template

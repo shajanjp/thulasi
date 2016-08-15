@@ -2,11 +2,11 @@
 name : Thulasi
 tagline : Minimal Jekyll Blog Template 
 description: "A snapshot of my life. Blogs about places I visit, topics I learn, things I love and experiences I earn."
-#avatar : https://raw.githubusercontent.com/guyswhocode/guyswhocode.github.io/master/guyswhocode-logo.png
+logo : https://raw.githubusercontent.com/guyswhocode/guyswhocode.github.io/master/guyswhocode-logo.png
 author : Shajan Jacob
 
 #lighter
-color-1 : 3BB874
+color-1 : 888
 #darker 
 color-2 : 4D4F53
 
@@ -24,13 +24,13 @@ highlighter: rouge
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: shajanjp@gmail.com
-  facebook: shajanjp
+  email: guyswhocode@gmail.com
+  facebook: guyswhocode
   flickr:
-  github: shajanjp
-  instagram: shajanjp
-  linkedin: shajanjp
-  pinterest: shajanjp
+  github: guyswhocode
+  instagram: guyswhocode
+  linkedin: guyswhocode
+  pinterest: guyswhocode
   rss: # just type anything here for a working RSS icon
   twitter: shajanjacob
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
@@ -40,7 +40,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: shajanjp
+disqus: guyswhocode
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:

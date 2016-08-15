@@ -2,7 +2,7 @@
 	<h2 class="heading">Categories</h2>
 	<nav id="categories">
 		<ul>
-			{% for category in site.data.info.categories %}
+			{% for category in site.data.categories %}
 			<li><a href="{{site.baseurl}}/category/{{ category }}">{{ category }}</a></li>
 			{% endfor %}
 		</ul>
@@ -11,7 +11,7 @@
 	<h2 class="heading">Trending</h2>
 	<nav id="trending">
 		<ul>
-			{% for post in site.categories.trending %}
+			{% for post in site.categories.trending limit:5 %}
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endfor %}
 		</ul>
@@ -20,7 +20,7 @@
 	<h2 class="heading">Authors</h2>
 	<nav id="authors">
 		<ul>
-			{% for author in site.data.info.authors %}
+			{% for author in site.data.authors %}
 			<li><a href="{{ site.baseurl }}/author/{{ author.url }}">{{ author.name }}</a></li>
 			{% endfor %}
 		</ul>

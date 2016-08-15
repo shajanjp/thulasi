@@ -3,7 +3,7 @@ layout: default
 ---
 <header{% if site.color-2 %} style="background-color: #{{ site.color-2 }};"{% endif%}>
 <div class="title"{% if site.color-1 %} style="color: #{{ site.color-1 }};"{% endif%}>
-	{% if site.avatar %}<img src="{{ site.avatar }}"> {% endif%}
+	{% if site.logo %}<img src="{{ site.logo }}"> {% endif%}
 	<h1>{{ site.name }}</h1>
 	<p class="subline">{{ site.tagline }}</p>
 </div>
@@ -13,7 +13,7 @@ layout: default
 		<div class="col-sm-9">			
 			<h2 class="heading">Recent Articles</h2>
 			{% for post in site.posts limit:6 %}
-			<article class="preview">
+			<article class="preview"{% if post.background %}style="border-color: #{{ post.background }};"{% endif %}>
 				<h3 class="title">{{ post.title }}</h3>
 				<p class="info">by <span class="author">{{post.author}}</span> on <span class="date">{{post.date | date_to_long_string | upcase}}</span></p>
 				<p>{{ post.content | strip_html | slice: 0, 400 }}...</p>
