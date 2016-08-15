@@ -7,7 +7,7 @@ layout: default
 		{% if page.thumbnail %}<img src="{{ site.baseurl }}/posts{{ page.url }}/{{ page.thumbnail}}"> {% endif %}
 		<h1{% if page.color %} style="color: #{{ page.color }};"{% endif %}>{{ page.title }}</h1>
 		<p class="subline">{{ page.description }}</p>
-		<p>by <strong>Shajan Jacob</strong> &#8212; Posted in <strong>Intro</strong> on <strong>May 21, 2014</strong></p>
+		<p>by <strong>{{ page.author }}</strong> &#8212; Posted in <strong>{{ page.categories }}</strong> on <strong>{{ page.date | date: '%B %d, %Y' }}</strong></p>
 	</div>
 </header>
 <div class="container">

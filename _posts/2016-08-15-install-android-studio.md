@@ -6,7 +6,7 @@ author : Shajan Jacob
 thumbnail : android-studio-logo.png
 background : 6f6f6f
 color : 84b74d
-categories : trending
+categories : android,trending
 ---
 
 # Installing Android Studio
