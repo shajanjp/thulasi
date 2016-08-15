@@ -18,4 +18,5 @@ categories : trending
 print("Hello Jekyll");
 ```
 
-> This is a test quote 
+> This is a test quote
+
